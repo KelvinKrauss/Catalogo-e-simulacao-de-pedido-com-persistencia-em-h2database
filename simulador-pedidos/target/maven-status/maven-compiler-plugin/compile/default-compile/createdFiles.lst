@@ -1,0 +1,11 @@
+com\nttdata\pedidos\controller\PedidoController.class
+com\nttdata\pedidos\repository\PedidoRepository.class
+com\nttdata\pedidos\config\RestTemplateConfig.class
+com\nttdata\pedidos\service\PedidoService.class
+com\nttdata\pedidos\dto\ItemPedidoRequest.class
+com\nttdata\pedidos\model\Pedido.class
+com\nttdata\pedidos\dto\PedidoRequest.class
+com\nttdata\pedidos\model\ItemPedido.class
+com\nttdata\pedidos\model\StatusPedido.class
+com\nttdata\pedidos\dto\ProdutoResponse.class
+com\nttdata\pedidos\SimuladorPedidosApplication.class

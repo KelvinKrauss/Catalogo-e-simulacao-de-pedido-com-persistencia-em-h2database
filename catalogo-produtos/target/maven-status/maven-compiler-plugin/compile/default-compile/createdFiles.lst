@@ -1,0 +1,6 @@
+com\nttdata\catalogo\CatalogoProdutosApplication.class
+com\nttdata\catalogo\controller\ProdutoController.class
+com\nttdata\catalogo\service\ProdutoService.class
+com\nttdata\catalogo\model\Produto.class
+com\nttdata\catalogo\config\DataInitializer.class
+com\nttdata\catalogo\repository\ProdutoRepository.class

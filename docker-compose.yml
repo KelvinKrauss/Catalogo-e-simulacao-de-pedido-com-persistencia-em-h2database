@@ -1,0 +1,49 @@
+version: '3.8'
+services:
+  eureka-server:
+    build: ./eureka-server
+    ports:
+      - "8761:8761"
+    networks:
+      - microservices-network
+
+  catalogo-produtos:
+    build: ./catalogo-produtos
+    ports:
+      - "8100:8100"
+    depends_on:
+      - eureka-server
+    environment:
+      - EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE=http://eureka-server:8761/eureka/
+    networks:
+      - microservices-network
+
+  simulador-pedidos:
+    build: ./simulador-pedidos
+    ports:
+      - "8200:8200"
+    depends_on:
+      - eureka-server
+      - catalogo-produtos
+    environment:
+      - EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE=http://eureka-server:8761/eureka/
+      - CATALOGO_SERVICE_URL=http://catalogo-produtos:8100
+    networks:
+      - microservices-network
+
+  api-gateway:
+    build: ./api-gateway
+    ports:
+      - "8700:8700"
+    depends_on:
+      - eureka-server
+      - catalogo-produtos
+      - simulador-pedidos
+    environment:
+      - EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE=http://eureka-server:8761/eureka/
+    networks:
+      - microservices-network
+
+networks:
+  microservices-network:
+    driver: bridge

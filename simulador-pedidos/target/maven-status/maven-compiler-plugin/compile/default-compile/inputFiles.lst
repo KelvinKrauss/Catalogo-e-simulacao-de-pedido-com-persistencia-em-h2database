@@ -1,0 +1,11 @@
+C:\Users\kelvi\OneDrive\Área de Trabalho\IFC\Desafio Técnico - Microserviços\simulador-pedidos\src\main\java\com\nttdata\pedidos\dto\PedidoRequest.java
+C:\Users\kelvi\OneDrive\Área de Trabalho\IFC\Desafio Técnico - Microserviços\simulador-pedidos\src\main\java\com\nttdata\pedidos\config\RestTemplateConfig.java
+C:\Users\kelvi\OneDrive\Área de Trabalho\IFC\Desafio Técnico - Microserviços\simulador-pedidos\src\main\java\com\nttdata\pedidos\dto\ItemPedidoRequest.java
+C:\Users\kelvi\OneDrive\Área de Trabalho\IFC\Desafio Técnico - Microserviços\simulador-pedidos\src\main\java\com\nttdata\pedidos\model\StatusPedido.java
+C:\Users\kelvi\OneDrive\Área de Trabalho\IFC\Desafio Técnico - Microserviços\simulador-pedidos\src\main\java\com\nttdata\pedidos\dto\ProdutoResponse.java
+C:\Users\kelvi\OneDrive\Área de Trabalho\IFC\Desafio Técnico - Microserviços\simulador-pedidos\src\main\java\com\nttdata\pedidos\SimuladorPedidosApplication.java
+C:\Users\kelvi\OneDrive\Área de Trabalho\IFC\Desafio Técnico - Microserviços\simulador-pedidos\src\main\java\com\nttdata\pedidos\model\Pedido.java
+C:\Users\kelvi\OneDrive\Área de Trabalho\IFC\Desafio Técnico - Microserviços\simulador-pedidos\src\main\java\com\nttdata\pedidos\controller\PedidoController.java
+C:\Users\kelvi\OneDrive\Área de Trabalho\IFC\Desafio Técnico - Microserviços\simulador-pedidos\src\main\java\com\nttdata\pedidos\repository\PedidoRepository.java
+C:\Users\kelvi\OneDrive\Área de Trabalho\IFC\Desafio Técnico - Microserviços\simulador-pedidos\src\main\java\com\nttdata\pedidos\model\ItemPedido.java
+C:\Users\kelvi\OneDrive\Área de Trabalho\IFC\Desafio Técnico - Microserviços\simulador-pedidos\src\main\java\com\nttdata\pedidos\service\PedidoService.java
