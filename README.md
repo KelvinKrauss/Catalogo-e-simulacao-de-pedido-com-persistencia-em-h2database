@@ -25,16 +25,16 @@ Ver produtos ordenados por preço:
 SELECT * FROM PRODUTOS ORDER BY PRECO DESC;
 --------------------------------------------------------------------------------------------------
 para listar os produtos do catalogo:
-GET   http://localhost:8100/api/produtos
+GET---http://localhost:8100/api/produtos
 --------------------------------------------------------------------------------------------------
 para buscar os produtos por id
-GET http://localhost:8100/api/produtos/(digite aqui o id)
+GET---http://localhost:8100/api/produtos/(digite aqui o id)
 --------------------------------------------------------------------------------------------------
 BUSCAR PRODUTOS POR NOME
-GET http://localhost:8100/api/produtos/buscar?nome=(coloque alguma palavra que tenha no nome do produto)
+GET---http://localhost:8100/api/produtos/buscar?nome=(coloque alguma palavra que tenha no nome do produto)
 --------------------------------------------------------------------------------------------------
 para criar um pedido:
-POST   http://localhost:8200/api/pedidos/simular
+POST---http://localhost:8200/api/pedidos/simular
 {
     "cliente": "joaozinho",
     "itens": [
@@ -53,17 +53,17 @@ POST http://localhost:8200/api/pedidos/(ID DO PEDIDO)/cancelar
 (mostrara a data e a hora do cancelamento e atualizara o pedido como cancelado, ira tambem listar qual foi o pedido )
 --------------------------------------------------------------------------------------------------
 LISTAR PEDIDOS POR ID
-GET   http://localhost:8200/api/pedidos/1
+GET---http://localhost:8200/api/pedidos/1
 (ira mostrar o pedido e se ele foi cancelado ou nao junto com horario)
 --------------------------------------------------------------------------------------------------
 LISTAR TODOS OS PEDIDOS
-GET   http://localhost:8200/api/pedidos
+GET---http://localhost:8200/api/pedidos
 --------------------------------------------------------------------------------------------------
 REDUZIR ESTOQUE DE UM PRODUTO
-POST   http://localhost:8100/api/produtos/(id do produto)/reduzir-estoque/(quantidade para diminuir)
+POST---http://localhost:8100/api/produtos/(id do produto)/reduzir-estoque/(quantidade para diminuir)
 --------------------------------------------------------------------------------------------------
 CRIAR NOVO PRODUTO AO ESTOQUE!
-POST   http://localhost:8100/api/produtos 
+POST---http://localhost:8100/api/produtos 
   
  {
   "nome": "Smartphone top",
