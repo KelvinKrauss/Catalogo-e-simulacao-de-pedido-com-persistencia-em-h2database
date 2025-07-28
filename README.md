@@ -1,3 +1,5 @@
+https://hermes.dio.me/files/assets/c2e4ece2-999a-4c35-b4b2-3171ac7d0308.png
+
 Resumo rapido deste sistema de catalogo de produtos e simulaçao de pedidos com persistencia em h2database, voce pode listar os produtos, fazer o pedido, cancelar o pedido, buscar produto por id, buscar produto por nome, criar produto, manipular estoque, todos os produtos estão presentes no h2 database para aplicar persistencia aos produtos criados(como este é apenas um teste os dados do h2 são deletados ao parar a aplicação ou reiniciar o computador)
 --------------------------------------------------------------------------------------------------
 TUTORIAL DE USO(rodando)
